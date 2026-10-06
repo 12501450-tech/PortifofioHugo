@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hugo Braga Gebauer — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav>
+    <a class="brand" href="#inicio">&lt;<span class="br">Hugo</span>/&gt;</a>
+    <ul class="nav-links">
+      <li><a href="#inicio">inicio</a></li>
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#habilidades">skills</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="icon-btn" href="https://github.com/12501450-tech" target="_blank" rel="noopener" aria-label="Abrir GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+      </a>
+      <button class="icon-btn" id="themeToggle" aria-label="Alternar modo claro/escuro" aria-pressed="false">
+        <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg id="iconMoon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap" id="inicio">
+    <p class="eyebrow-loc mono">Belo Horizonte, MG · Alípio de Melo</p>
+    <h1>Hugo Braga Gebauer<span class="blink">_</span></h1>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span></span><span></span><span></span>
+        <span class="path">hugo@portfolio: ~</span>
+      </div>
+      <div class="terminal-body">
+        <div class="line"><span class="prompt">$</span> whoami</div>
+        <div class="line"><span id="typingText"></span><span class="cursor"></span></div>
+      </div>
+    </div>
+
+    <p class="lede">Estudante do Ensino Técnico em Informática no COTEMIG, em busca de um estágio na área de tecnologia para colocar em prática o que venho aprendendo e crescer junto de uma equipe.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#projetos">./ver-projetos</a>
+      <a class="btn" href="#contato">./contato</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">01. sobre</p>
+        <h2>Quem eu sou, profissionalmente</h2>
+      </div>
+      <div class="about-grid">
+        <div class="reveal">
+          <p>Estou no início da minha trajetória em tecnologia, cursando o Ensino Médio Técnico em Informática no COTEMIG. Tenho uma base teórica sólida e disponibilidade total para aprender novas linguagens, ferramentas e processos do dia a dia de uma equipe de TI.</p>
+          <p>Busco meu primeiro estágio para aplicar essa base na prática, contribuindo com dedicação e proatividade para os resultados do time, enquanto evoluo constantemente minhas competências técnicas.</p>
+        </div>
+        <div class="reveal">
+          <div class="info-box"><span class="k">formacao:</span> <span class="v">Técnico em Informática</span></div>
+          <div class="info-box"><span class="k">instituicao:</span> <span class="v">COTEMIG</span></div>
+          <div class="info-box"><span class="k">conclusao_prevista:</span> <span class="v">2027-12</span></div>
+          <div class="info-box"><span class="k">status:</span> <span class="v">disponivel_para_estagio</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section" id="habilidades">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">02. habilidades</p>
+        <h2>O que venho estudando e desenvolvendo</h2>
+        <p>Conteúdos do curso técnico e características do meu jeito de trabalhar.</p>
+      </div>
+      <div class="reveal">
+        <div class="skills-group">
+          <h3>curso-tecnico/</h3>
+          <ul class="skills-list">
+            <li>Lógica de programação</li>
+            <li>Redes de computadores</li>
+            <li>Manutenção de hardware</li>
+            <li>Banco de dados</li>
+            <li>HTML, CSS &amp; JavaScript</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>perfil/</h3>
+          <ul class="skills-list">
+            <li>Proatividade</li>
+            <li>Disposição para aprender</li>
+            <li>Trabalho em equipe</li>
+            <li>Organização</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section" id="projetos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">03. projetos</p>
+        <h2>Trabalhos que já coloquei no ar</h2>
+        <p>Clique em um projeto para ver mais detalhes.</p>
+      </div>
+      <div class="projects-grid reveal">
+        <button class="project-card" type="button" data-modal="project-hbg" aria-haspopup="dialog">
+          <div class="card-bar"><span></span><span></span><span></span></div>
+          <div class="body">
+            <h3>HBG — Concessionária de carros premium</h3>
+            <p>Site institucional com página inicial e página de modelos, construído em HTML e CSS.</p>
+            <div class="meta"><span>HTML</span><span>CSS</span></div>
+          </div>
+        </button>
+        <div class="project-card placeholder">
+          <div class="card-bar"><span></span><span></span><span></span></div>
+          <div class="body">
+            <h3>Próximo projeto</h3>
+            <p>Novo trabalho em construção — volte em breve para conferir.</p>
+            <div class="meta"><span>em_andamento</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="github-cta reveal">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        <div class="txt"><b>./github --profile</b>Repositórios e outros experimentos que venho praticando.</div>
+        <a class="btn" href="https://github.com/12501450-tech" target="_blank" rel="noopener">abrir →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section" id="contato">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">04. contato</p>
+        <h2>Vamos conversar</h2>
+        <p>Preencha o formulário ou use um dos canais ao lado.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="nome">nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name">
+            <p class="err" id="err-nome"></p>
+          </div>
+          <div class="field">
+            <label for="telefone">telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(31) 91234-5678" autocomplete="tel" inputmode="numeric" maxlength="15">
+            <p class="err" id="err-telefone"></p>
+          </div>
+          <div class="field">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email">
+            <p class="err" id="err-email"></p>
+          </div>
+          <div class="field">
+            <label for="mensagem">mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Como posso ajudar?"></textarea>
+            <p class="err" id="err-mensagem"></p>
+          </div>
+          <button class="btn primary" type="submit">./enviar-mensagem</button>
+        </form>
+
+        <div class="contact-side">
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L7.9 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2.3Z"/></svg></span>
+            <div><p class="label">telefone</p><p class="value"><a href="tel:+5531971744529">(31) 97174-4529</a></p></div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 6 9 6 9-6M3 6v12h18V6"/></svg></span>
+            <div><p class="label">email</p><p class="value"><a href="mailto:hugogebauer322@gmail.com">hugogebauer322@gmail.com</a></p></div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2ZM8.3 18.4H5.7V9.6h2.6v8.8ZM7 8.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm11.4 9.9h-2.6v-4.3c0-1-.4-1.7-1.3-1.7-.7 0-1.1.5-1.3 1-.1.2-.1.5-.1.7v4.3h-2.6s.1-7.9 0-8.8h2.6v1.2a2.6 2.6 0 0 1 2.3-1.3c1.7 0 3 1.1 3 3.5v5.4Z"/></svg></span>
+            <div><p class="label">linkedin</p><p class="value"><a href="https://www.linkedin.com/in/hugo-gebauer-1960263a7" target="_blank" rel="noopener">/in/hugo-gebauer</a></p></div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7.4 7-12.4A7 7 0 0 0 5 9.6C5 14.6 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+            <div><p class="label">localizacao</p><p class="value">Belo Horizonte, MG</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="f-brand">
+      <a class="brand" href="#inicio">&lt;<span class="br">Hugo</span>/&gt;</a>
+      <p>Estudante de Informática buscando o primeiro estágio na área de tecnologia.</p>
+    </div>
+    <div class="f-links">
+      <div class="f-col">
+        <h4>contato</h4>
+        <a href="tel:+5531971744529">(31) 97174-4529</a>
+        <a href="mailto:hugogebauer322@gmail.com">hugogebauer322@gmail.com</a>
+      </div>
+      <div class="f-col">
+        <h4>perfis</h4>
+        <a href="https://www.linkedin.com/in/hugo-gebauer-1960263a7" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/12501450-tech" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="f-col">
+        <h4>navegacao</h4>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+      </div>
+    </div>
+  </div>
+  <p class="f-bottom mono">Hugo Braga Gebauer — Belo Horizonte, MG</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal-wrap">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    <div class="modal" id="modalContent" role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
